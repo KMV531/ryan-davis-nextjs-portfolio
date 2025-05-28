@@ -43,7 +43,7 @@ const Form = ({ onClose }) => {
     <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-y-4'>
       {/* input */}
       <div className='relative flex items-center'>
-        <Input type='name' id='name' placeholder='Enter Your Name' />
+        <Input type='name' required id='name' placeholder='Enter Your Name' />
         <User className='absolute right-6' size={20} />
       </div>
 
@@ -51,6 +51,7 @@ const Form = ({ onClose }) => {
       <div className='relative flex items-center'>
         <Input
           type='email'
+          required
           name='user_email'
           id='email'
           placeholder='Enter Your Email'
@@ -62,6 +63,7 @@ const Form = ({ onClose }) => {
       <div className='relative flex items-center'>
         <Textarea
           type='text'
+          required
           name='user_message'
           id='text'
           placeholder='Enter Your Message'

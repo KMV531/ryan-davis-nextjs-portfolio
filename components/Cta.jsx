@@ -12,6 +12,7 @@ import { useState } from 'react'
 
 const Cta = () => {
   const [open, setOpen] = useState(false)
+
   return (
     <section className='py-24 bg-tertiary dark:bg-secondary/40' id='contact'>
       <div className='container mx-auto'>
@@ -24,7 +25,7 @@ const Cta = () => {
             <DialogTrigger asChild>
               <Button className='cursor-pointer'>Contact Me</Button>
             </DialogTrigger>
-            <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto p-6 rounded-lg'>
+            <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto p-6 rounded-lg'>
               <DialogTitle className='hidden'>Contact Form</DialogTitle>
               <Contact onClose={() => setOpen(false)} />
             </DialogContent>
