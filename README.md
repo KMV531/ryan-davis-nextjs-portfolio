@@ -21,7 +21,7 @@
 |------------------|---------------------------------|
 | Next.js 14       | SEO optimization & fast loading |
 | Tailwind CSS     | Utility-first styling           |
-| UI Library        | shadcn/ui        | Accessible, professional components |
+| shadcn/ui        | Accessible, professional components |
 | EmailJS          | Secure form handling            |
 | Vercel           | Instant global deployment       |
 
